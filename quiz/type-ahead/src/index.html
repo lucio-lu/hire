@@ -19,8 +19,8 @@
         <span class="population" v-pre>{{人口}}</span>
       </li>
     </ul>
-    <ul class="suggestions" v-for="city in showData">
-      <li>
+    <ul class="suggestions">
+      <li v-for="city in showData">
         <span class="name" v-html="city.cityName"></span>
         <span class="population">{{ city.population }}</span>
       </li>
